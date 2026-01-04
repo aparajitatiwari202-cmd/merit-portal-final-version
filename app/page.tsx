@@ -1,3 +1,34 @@
+"use client";
+
+import { useEffect } from "react";
+import HeaderNav from "@/components/header-nav";
+// (rest of your imports stay SAME)
+
+export default function Home() {
+
+  useEffect(() => {
+    fetch("http://localhost:5000/test-db")
+      .then(res => res.json())
+      .then(data => {
+        console.log("✅ Backend connected:", data);
+      })
+      .catch(err => {
+        console.error("❌ Backend connection error:", err);
+      });
+  }, []);
+
+  return (
+    <main className="min-h-screen bg-white">
+      {/* YOUR ENTIRE EXISTING UI STAYS SAME */}
+    </main>
+  );
+}
+
+
+
+
+
+
 import HeaderNav from "@/components/header-nav"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
