@@ -87,11 +87,11 @@ It serves as a scalable model for digital evaluation systems in educational inst
 
 ## 9. Developer
 
-Perfect 👍 — here’s the **final formatted section** with your name and details on **separate lines** (Markdown-safe and GitHub/Word compatible):
+Perfect  — here’s the **final formatted section** with your name and details on **separate lines** (Markdown-safe and GitHub/Word compatible):
 
 ---
 
-## **9. Developer**
+## **9. Developed**
 
 **Developed by:** *Aparajita Tiwari*
 **Department of Computer Science**
