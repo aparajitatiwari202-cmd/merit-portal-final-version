@@ -93,7 +93,7 @@ Perfect 👍 — here’s the **final formatted section** with your name and det
 
 ## **9. Developer**
 
-**Developed by:** *Anjali*
+**Developed by:** *Aparajita Tiwari*
 **Department of Computer Science**
 *Maitreyi College, University of Delhi*
 
